@@ -1,0 +1,92 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalanle=no" />
+		<title>Responsive Menu</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://kit.fontawesome.com/98cc96590a.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<nav>
+			<div class="toggle">
+				<i class="fas fa-bars Menu"></i>
+			</div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="pagelayout.html">Page Layout</a></li>
+				<li><a href="textformatting.html">Text Formatting</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>	
+		</nav>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script type="text/javascript"> 
+			$(document).ready(function(){
+				$('.Menu').click(function(){
+					$('ul').toggleClass('active');
+				})
+			})	
+		</script>
+
+	<section class="full">
+      	<main>
+        <h1>Page Layout</h1>
+        <h2>Centered Text</h2>
+        <p> <i>It's boring — use sparingly</i> </p>
+        <p> <i>Centered text</i> is overused. It’s the typographic equivalent of vanilla ice cream—safe but boring. It’s rare to see text centered in a book, newspaper, or magazine, except for the occasional headline or title. Asymmetry is nothing to fear.</p>
+		<p> Yet it is feared. So for all the fans of centered text, a poem:</p>
+		<br>
+		<p style="text-align: center"> <b> An Ode to Centered Text </b> </p>
+		<p style="text-align: center">Centered text is acceptable when used for short phrases or titles,</p>
+		<p style="text-align: center">like the name on your business cards or letterhead.</p>
+		<p style="text-align: center">Or in documents, you can center major section headings</p>
+		<p style="text-align: center">like “Introduction”, “Argument”, and “Conclusion”.</p>
+		<p style="text-align: center">(It may be conventional in your jurisdiction</p>
+		<p style="text-align: center">to center certain text in court filings.)</p>
+		<p style="text-align: center">If you enjoy centering text, then</p>
+		<p style="text-align: center">you should learn to use the</p>
+		<p style="text-align: center"><b>hard line break</b></p>
+		<p style="text-align: center">so your lines start</p>
+		<p style="text-align: center">in sensible</p>
+		<p style="text-align: center">places.</p>
+		<p style="text-align: center">OK?</p>
+		<br>
+		<p> Whole text blocks, including sentence-length headings in court filings, should not be centered. Centering makes text blocks difficult to read because both edges of the text block are uneven. Centered text blocks are also difficult to align with other page elements. See <b>headings</b> for better options. </p>
+
+      </main>
+    </section>
+
+    <section class="spacing"> <p>    <br> <br> <br> </p> </section>
+
+    <section class="full">
+    	<main>
+    		<h2> Body Text </h2>
+    		<p> <i> Four important considerations </i> </p>
+
+			<p style="text-align: center">Please note:</p>
+			<p style="text-align: center"><b>BODY TEXT*</b></p>
+			<p style="text-align: center">is the most common</p>
+			<p style="text-align: center">element of a document.</p>
+			<p style="text-align: center">Therefore, how the body</p>
+			<p style="text-align: center">text looks will have the</p>
+			<p style="text-align: center">most noticeable effect</p>
+			<p style="text-align: center">on the appearance</p>
+			<p style="text-align: center">of the document.</p>
+			<p style="text-align: center">Consequently,</p>
+			<p style="text-align: center">you should</p>
+			<p style="text-align: center">set up the</p>
+			<p style="text-align: center">body text</p>
+			<p style="text-align: center"><b>FIRST.</b></p>
+			<br>
+			<p style="text-align: center">Start with</p>
+			<p style="text-align: center"><b>font, point size,</b></p>
+			<p style="text-align: center"><b>line spacing, and</b></p>
+			<p style="text-align: center"><b>line length,</b> because</p>
+			<p style="text-align: center">those four decisions will</p>
+			<p style="text-align: center">largely determine how</p>
+			<p style="text-align: center">the body text will</p>
+			<p style="text-align: center">look. OK?</p>
+			<br>
+			<p style="font-size: 10pt"> <i><b>*</b> Meaning, the text that forms the main content of your document.</i></p>
+			<p> Though I’ll stop short of calling it a rule, I strongly recommend using a serif font—not a sans serif font—for body text. Most books, newspapers, and magazines use serif fonts for body text. It’s the traditional choice and still the best choice </p>
+	</body>
+</html>
